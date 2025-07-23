@@ -47,7 +47,7 @@ const Login = () => {
 
       if (password !== storedPassword) {
         toast.error(
-          'Your account is currently inaccessible. Please contact your administrator to log in',
+          'Incorrect Password',
           {
             position: 'bottom-center',
             autoClose: 3000,
